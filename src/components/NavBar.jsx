@@ -8,7 +8,7 @@ const NavBar = () => {
   const { fullName } = useContext(InfoContext);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const navLinks = ['work', 'about', 'contact','certificate'];
+  const navLinks = ['work', 'about', 'contact'];
 
   return (
     <motion.div

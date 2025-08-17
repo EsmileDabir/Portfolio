@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { InfoContext } from "@/context/Context";
-import ProfilePic1 from "/images/ProfilePic1.jpeg";
+import ProfilePic1 from "/images/ProfilePic1.jpg";
 import {easeIn, easeOut, motion} from "framer-motion"
 const Home = () => {
   const { linkedin, github, fullName } = useContext(InfoContext);
